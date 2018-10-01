@@ -1,0 +1,421 @@
+/* Custom Stylesheet */
+
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+html {
+    font-family: roboto;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+.topnav {
+    height: 35px !important;
+}
+
+.topnav ul a {
+    margin: 8px 0 -8px 0;
+}
+
+nav .button-collapse i {
+    height: 91px;
+    line-height: 24px;
+}
+
+@media only screen and (min-width: 601px) {
+    nav .nav-wrapper i, nav a.button-collapse i {
+        height: 91px;
+        line-height: 24px;
+    }
+}
+
+@media only screen and (max-width: 1312px) {
+    .slogan {
+      display: none;
+    }
+}
+
+nav ul a, nav .brand-logo {
+    color: #fff;
+}
+
+nav ul a {
+    padding: 0 20px;
+}
+
+nav {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 4px 5px 0 rgba(0, 0, 0, 0.04), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.topnav i.material-icons {
+    display: inline-block;
+}
+
+.fianza-logo {
+  height: 66px;
+  margin-top: -23px;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+.page-footer p {
+    margin: 0;
+}
+
+footer.page-footer {
+    margin: 0;
+}
+
+footer .container {
+    margin-top: 10px;
+}
+
+.social {
+    width: 30px;
+    margin-right: 7px;
+}
+
+.button-collapse {
+    color: #69BE28;
+}
+
+.parallax-container {
+    height: 33vw;
+    min-height: 320px;
+    line-height: 0;
+    color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (min-width: 601px) {
+    nav {
+        height: 56px !important;
+        line-height: 56px !important;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .topnav {
+        line-height: 35px !important;
+    }
+    .topnav .nav-wrapper i {
+        height: 20px;
+        line-height: 20px !important;
+        vertical-align: middle;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 18%;
+    }
+}
+
+.parallax img {
+    width: 100%;
+    min-width: 700px;
+}
+
+@media only screen and (min-width: 700px) {
+    #map {
+        margin: 0 15%;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .plan {
+        margin: 0 15%;
+    }
+}
+
+.green {
+    background-color: #69BE28 !important;
+}
+
+.green-text {
+    color: #69BE28 !important;
+}
+
+.blue {
+    background-color: #002244 !important;
+}
+
+.blue-text {
+    color: #002244 !important;
+}
+
+h1 {
+    text-shadow: 0 0 0.5em #000;
+    font-size: calc(35px + 2vw);
+    line-height: 110%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 992px) {
+    h1 {
+        margin: 0 0 0 0;
+    }
+    .modal {
+        width: 90%;
+    }
+}
+
+h2 {
+    font-size: calc(18px + 1.5vw);
+    text-shadow: 0 0 0.5em #000;
+}
+
+h3 {
+    font-size: 30px;
+    padding: 8px 0;
+    margin: 0.82rem 0 0.656rem 0;
+}
+
+h4 {
+    font-size: 1.64rem;
+    line-height: 110%;
+    margin: 0.82rem 0 0.656rem 0
+}
+
+h5 {
+    line-height: 30px;
+    font-size: 22px;
+    margin: 0 0 3px 0;
+}
+
+.row {
+    margin-bottom: 0;
+}
+
+.side-nav {
+    width: 250px;
+}
+
+.side-nav li>a>i.material-icons {
+    margin: 0 15px 0 0;
+}
+
+.side-nav-logo {
+    width: 20px;
+    margin: 0 15px 0 2px;
+    vertical-align: middle;
+}
+
+.tabs .indicator {
+    background-color: #F27F2D;
+}
+
+form .row .col {
+    padding: 0 .75rem;
+}
+
+@media only screen and (min-width: 601px) {
+    .row .col.m25 {
+        width: 20%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .row .col.offset-m25 {
+        margin-left: 20%;
+    }
+    .row .col.pull-m25 {
+        right: 20%;
+    }
+    .row .col.push-m25 {
+        left: 20%;
+    }
+}
+
+.model-img {
+    width: 50vw;
+    min-width: 350px;
+}
+
+.specs-img {
+    width: 5vw;
+    min-width: 50px;
+}
+
+.photos-img {
+    padding: .3vw;
+}
+
+.tour-btn {
+    margin-top: 20px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.87);
+    margin: 0;
+    padding: 0;
+}
+
+.team-card {
+    margin-bottom: 15px;
+}
+
+.team-img {
+    width: 18vw;
+    min-width: 130px;
+    display: block;
+    margin: 22px auto 0 auto;
+}
+
+.team-name {
+    margin-top: 29px;
+}
+
+.team-title {
+    margin: 0 0 7px 0;
+}
+
+.team-btn {
+    margin-bottom: 20px;
+}
+
+.team-bio-img {
+    width: 40px;
+    margin: 0 10px -12px 0;
+}
+
+.team-bio-text {
+    line-height: 22px;
+}
+
+.slider .indicators .indicator-item {
+    background-color: #A5ACAF;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #002244;
+}
+
+.modal-footer .btn-flat {
+    float: none !important;
+}
+
+.input-field input[type=text]:focus+label {
+    color: #69BE28;
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #002244;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+.input-field input[type=tel]:focus+label {
+    color: #69BE28;
+}
+
+.input-field input[type=tel]:focus {
+    border-bottom: 1px solid #002244;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+.input-field input[type=email]:focus+label {
+    color: #69BE28;
+}
+
+.input-field input[type=email]:focus {
+    border-bottom: 1px solid #002244;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+.card-panel ul {
+  margin-left: 10px;
+}
+
+.card-panel ul ul {
+  margin-left: 10px;
+}
+
+.card-panel ul {
+  margin-left: 10px;
+}
+
+.bullets {
+    list-style-type: disc !important;
+    margin-left: 20px;
+}
+
+.circles {
+    list-style-type: circle !important;
+    margin-left: 20px;
+}
+
+.checkmarks {
+  padding-left: 1.5em;
+  text-indent:-1em;
+}
+
+.checkmarks:before {
+  content: '✓ ';
+}
+
+.aboutli li {
+    list-style-type: disc !important;
+    margin-left: 20px;
+    line-height: 2rem;
+}
+
+.modal {
+    max-height: 80%;
+}
+
+.modal-content {
+    padding: 12px !important;
+}
+
+th, td {
+  border: 1px solid grey !important;
+  border-radius: 0;
+}
+
+td {
+  padding: 3px;
+}
+
+.dtable th {
+  padding: 10px 5px;
+  text-align: center;
+}
+
+.mtable th {
+  padding: 5px;
+  text-align: center;
+  vertical-align: bottom;
+  line-height: 1rem;
+}
+
+.tdcenter {
+  text-align: center;
+}
+
+@media only screen and (max-width: 559px) {
+    .dtable {
+      display: none;
+    }
+}
+
+@media only screen and (min-width: 560px) {
+    .mtable {
+      display: none;
+    }
+}

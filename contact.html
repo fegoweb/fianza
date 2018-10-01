@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <title>Fianza</title>
+    <meta name="description" content="Fianza">
+    <meta name="keywords" content="Fianza">
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link rel="icon" href="favicon5.png" type="image/gif" sizes="64x64" class="fianza-logo">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto');
+    </style>
+</head>
+
+<body>
+    <nav class="blue topnav">
+        <div class="nav-wrapper container">
+            <ul class="right hide-on-med-and-down">
+                <li><a href="mailto:contact@fianzaglobal.com" target="_blank" class="green-text"><i class="material-icons green-text">email</i>&nbsp;&nbsp;contact@fianzaglobal.com</a></li>
+                <li><a href="tel:1-720-437-1072" class="green-text"><i class="material-icons green-text">phone</i>&nbsp;&nbsp;720-437-1072</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="navScript" class="blue"></nav>
+
+    <!-- START HERE -->
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <div class="col s12 left">
+                    <div class="row">
+                        <form id="gform" method="POST" class="col s12" action="https://script.google.com/macros/s/AKfycbwhgn96kzDJeOAfB51aznhOa5uK98D6Ts6CtNiXRpxlA-d_X5ka/exec">
+                            <!-- change the form action to your script url -->
+                            <h3 class="blue-text">Contact Us</h3>
+                            <p>Please use this contact form to schedule a free consultation.</p><br>
+                            <div class="row">
+                                <div class="input-field col s12 m6">
+                                    <input id="name" name="name" type="text" class="validate" />
+                                    <label for="name">First and Last Name</label>
+                                </div>
+                                <div class="input-field col s12 m6">
+                                    <input id="email" name="email" type="email" value="" required class="validate" />
+                                    <label for="email">Email Address</label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input-field col s6 m6">
+                                    <input id="phone" name="phone" type="tel" class="validate" />
+                                    <label for="phone">Phone Number</label>
+                                </div>
+
+                                <div class="input-field col s6 m6">
+                                    <input id="zip" name="zip" type="text" class="validate" />
+                                    <label for="zip">Zip Code</label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input-field col s12 m6">
+                                    <input id="company" name="company" type="text" class="validate" />
+                                    <label for="company">Company Name</label>
+                                </div>
+                                <div class="input-field col s12 m6">
+                                    <input id="type" name="type" type="text" class="validate" />
+                                    <label for="type">Type of Business</label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input-field col s12 m12">
+                                    <input id="message" name="message" type="text" class="validate" />
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <br>
+                            <p class="center-align"><button class="waves-effect waves-green btn-flat green white-text">Submit</button></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Customise the Thankyou Message People See when they submit the form: -->
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <div class="col s12 center">
+                    <div style="display:none;" id="thankyou_message">
+                        <br><br><br><br><h3><b>Thanks for contacting us!<br>We will get back to you soon!</b></h3><br>
+                        <i class="material-icons medium green-text" style="height: 45px; line-height: 40px; vertical-align: middle; padding: 0">thumb_up</i>
+                        <br><br><br><br><br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Submit the Form to Google Using "AJAX" -->
+    <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+    <!-- <script data-cfasync="false" type="text/javascript"
+  src="/form-submission-handler.js"></script> -->
+    <!-- END -->
+    <br>
+    <br>
+
+    <footer id="footerScript" class="page-footer blue"></footer>
+
+    <!--  Scripts -->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/footer.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.slider').slider({
+                full_width: true
+            });
+        });
+    </script>
+</body>
+
+</html>
